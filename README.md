@@ -21,7 +21,7 @@ Wenn das Repository geklont, oder heruntergeladen wird, liegen im Ordner `/input
 
 Um das Tool zu starten folgende Schritte ausführen:
 1. Eine Konsole öffnen
-2. In den Ordner /Konsumedio/python navigieren
+2. In den Ordner /KonsumEdio/python navigieren
 3. Die Python-Datei "konsumedio.py" ausführen, z.B. mit dem Befehl: `python3 konsumedio.py`
 
 ### Standard input und output anpassen

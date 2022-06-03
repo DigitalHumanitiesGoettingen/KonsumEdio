@@ -13,29 +13,24 @@ Python 3.8 und folgende zusätzliche Bibliotheken:
 - scikit-image
 - Pillow
 
-Es werden die folgenden Dateien aus dem Respository benötigt:
-- object_app.py
-- cut_pages.py
-- Box.py
+### Beispieldaten
 
-Ordnerstruktur:
+Wenn das Repository geklont, oder heruntergeladen wird, liegen im Ordner `/input/prep/bin/` 5 Beispielseiten aus der Zeitschrift "Der Sturm" zum Testen der Anwendung vor. Diese stammen aus dem Digitalisat der Uni Heidelberg (https://doi.org/10.11588/diglit.31770). Die Seiten wurden als Vorbereitung für die Verarbeitung in das .png Format überführt und binarisiert.
 
-- Übergeordneter Ordner
-  - input
-    - prep
-      - bin
-        - zu segmentierende Bilder (binarisiert) im .png Format
-  - output_int
-  - python
-    - Box.py
-    - cut_pages.py
-    - object_app.py
+### Das Tool starten
+
+Um das Tool zu starten folgende Schritte ausführen:
+1. Eine Konsole öffnen
+2. In den Ordner /KonsumEdio/python navigieren
+3. Die Python-Datei "konsumedio.py" ausführen, z.B. mit dem Befehl: `python3 konsumedio.py`
 
 ### Standard input und output anpassen
 
 Beim Öffnen des Tools wird das erste Bild aus dem Standard-Input-Ordner angezeigt und die segmentierten Bilder werden in den Standard-Output-Ordner abgelegt.
 Diese Ordner können in der Datei object_app.py in Zeile 381 und 396 ("/output_int/" ersetzen) angepasst werden.
 Die Ordner können für jede Session auch über das Interface geändert werden.
+
+Alternativ können eigene Bilder in den Ordner `/input/prep/bin/` gelegt werden.
 
 ### Anleitung zur Oberfläche
 
@@ -96,5 +91,10 @@ Konvertiert Bilder in grayscale und binäre Bilder und speichert diese in den Or
 
 Erschafft eine csv-Datei mit einer Liste aller Anzeigen und den zugehörigen Metadaten im in Zelle 4 angegebenen Ordner.
 
+
+### AutorInnen
+
+Johanna Sophia Danielzik 
+im Rahmen einer Projektarbeit am Institut für Digital Humanities Göttingen
 
 

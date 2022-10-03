@@ -94,7 +94,7 @@ Erschafft eine csv-Datei mit einer Liste aller Anzeigen und den zugehörigen Met
 
 ### AutorInnen
 
-Johanna Sophia Danielzik 
+Johanna Sophia Störiko 
 im Rahmen einer Projektarbeit am Institut für Digital Humanities Göttingen
 
 
